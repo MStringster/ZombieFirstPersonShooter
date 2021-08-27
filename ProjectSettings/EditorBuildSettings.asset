@@ -6,9 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/MainMenu.unity
+    guid: c703e3cd4a4f2e74d8ffc08190ffe304
+  - enabled: 1
     path: Assets/Scenes/Hospital.unity
     guid: 142ecd1aa3ac61e4288775155ec4ec7c
-  - enabled: 0
-    path: Assets/Scenes/Sandbox.unity
-    guid: 9fc0d4010bbf28b4594072e72b8655ab
   m_configObjects: {}

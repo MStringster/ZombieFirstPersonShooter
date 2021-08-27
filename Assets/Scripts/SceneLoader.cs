@@ -5,10 +5,20 @@ using UnityEngine.SceneManagement;
 
 public class SceneLoader : MonoBehaviour
 {
-    public void ReloadGame()
+    void Start()
     {
-        SceneManager.LoadScene(0);
+        Cursor.lockState = CursorLockMode.None;
+        Cursor.visible = true;
+    }
+    public void StartGame()
+    {
+        SceneManager.LoadScene(1);
+    }
+
+    public void ReturnToMenu()
+    {
         Time.timeScale = 1;
+        SceneManager.LoadScene(0);
     }
 
     public void QuitGame()
