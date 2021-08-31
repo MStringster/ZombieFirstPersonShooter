@@ -228,7 +228,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2409467340198219297, guid: e9e85ffd279d1584ea1ac779d3274dbd, type: 3}
       propertyPath: m_text
-      value: 
+      value: 'You have been dropped outside a hospital with a rifle, pistol and a
+        shotgun. You need to kill all zombies in the area.
+
+        Fire - Mouse1
+
+        Switch
+        Weapons - Scroll Wheel
+
+        Zoom (rifle only) - Right click'
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e9e85ffd279d1584ea1ac779d3274dbd, type: 3}
